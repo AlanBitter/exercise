@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <!--
+            Auteur : Bitter Alan
+            Date : 28.02.2023
+            Description : page HTML contenant une navigation, des images, Une biographie et l'histoir du joueur 
+        -->
+        <meta charset="utf-8" />
+        <title>CONTACT</title>
+        <link rel="icon" type="image" href="../../ressources/img_logo/1200px-Logo_Roger_Federer.svg.png">
+        <link href="../../ressources/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- commentaire
+            plusieur lignes 
+        
+        -->
+       
+        <header>
+           <img class="logo" src="../../ressources/img_logo/1200px-Logo_Roger_Federer.svg.png" alt="LogoRoger" height="109" width="109">
+            <nav> 
+                <ul>
+                    <li><a class="Nav" href="../../index.html">ACCUEIL</a>
+                    <a class="Nav" href="../html/carriere.html">CARRIERE</a>
+                    <a class="Nav" href="#">CONTACT</a>
+                    
+                </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="surmoi"> Je m'appelle Alan Bitter, j'ai 16ans et je suis un passionné de tennis. Mon joueur préférer est Roger Federer.
+            Je suis en 1ère année en apprentissage d'informaticien à l'ETML. Nous avons comme projet de faire un site web sur un sujet ou une personne qu'on aime,
+            c'est donc pour cela que j'ai fait ce site. J'espère que ce site vous aura plus et permis d'en apprendre plus sur ce magnifique joueur. 
+            
+        </div>
+        
+        <img id="bitmoji" src="../../UserContent/img/Capture d’écran 2023-03-14 103603.png">
+
+        <form >
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+      
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required>
+      
+            <label for="email">Adresse e-mail :</label>
+            <input type="text" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+      
+            <label for="message" >Message :</label>
+            <textarea id="message" name="message" placeholder="Tapez votre message ici" required></textarea>
+
+            <label class="question">Ce site vous a permis d'en apprendre plus sur Roger Federer ?</label>
+                <div>
+                    <label for="oui">Oui</label>
+                    <input class="oui" type="radio" id="oui" name="question" value="oui" required>
+                    <label for="non">Non</label>
+                    <input class="non" type="radio" id="non" name="question" value="non">
+                </div>
+      
+            <input type="submit" value="Envoyer">
+          </form>
+
+        <footer>
+            <div>
+                <p class="moi" > ALAN BITTER - CIN1A - <a class="mail" href="mailto:alan.bitter@icloud.com"> MAIL</a> </p>
+                
+            </div>
+            
+        </footer>
+        
+        
+    </body>
+</html>

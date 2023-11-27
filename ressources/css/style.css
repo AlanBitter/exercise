@@ -1,0 +1,407 @@
+/* CSS pour la page d'accueil*/
+header{
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    padding: 27px;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+
+.logo{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Nav{
+    text-decoration: none; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 148px;
+    margin-right: 163px;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img{
+    float: left;
+    
+}
+
+body{
+    margin: 0px;
+    background-color: yellow;
+}
+
+.Nav:hover{
+    text-decoration: underline; 
+}
+
+.img{
+    float: left;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 200px;
+    width: 24%;
+    border-radius: 20px;
+}
+
+.biographie{
+    padding-top: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.bio{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 300px;
+    padding-bottom: 20px;
+}
+
+.lui{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumer{
+    margin-right: 800px;
+    margin-left: 200px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.point{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Dabul{
+    padding-left: 400px;
+}
+
+.Nadal{
+    padding-left: 200px;
+}
+
+footer{
+    background-color: green;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 812px;
+    padding-right: 812px;
+
+}
+
+.moi,.mail{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 0px;
+}
+
+.mail{
+    text-decoration: none;
+    color: black;
+}
+
+.mail:hover{
+    text-decoration: underline; 
+}
+
+/* CSS pour la page carrière */
+
+header{
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    padding: 27px;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+
+.logo{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Nav{
+    text-decoration: none; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 148px;
+    margin-right: 163px;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1{
+    padding-left: 100px;
+}
+
+.carriere {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 800px;
+    padding-left: 100px;
+}
+
+.usopen{
+    float:right;
+    padding-right: 270px;
+    padding-top: 0px;
+
+}
+.open{
+    float: right;
+    margin-right: 270px;
+    border-radius: 20px;
+    width: 13%;
+}
+#Wimbledon{
+    width: 13%;
+    float: right;
+    margin-right: 270px;
+    border-radius: 15px;
+}
+
+#Win{
+    float:right;
+    padding-right: 270px;
+    padding-top: 0px;
+    
+}
+
+#cincinati{
+    float: right;
+    border-radius: 15px;
+    margin-right: 270px;
+
+}
+
+#djoko{
+    float:right;
+    padding-right: 180px;
+    padding-top: 0px;
+}
+footer{
+    background-color: green;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 812px;
+    padding-right: 812px;
+
+}
+
+.moi,.mail{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 0px;
+}
+
+.mail{
+    text-decoration: none;
+    color: black;
+}
+
+.mail:hover{
+    text-decoration: underline; 
+}
+
+/*CSS pour la page de contact */
+
+header{
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    padding: 27px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.logo{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Nav{
+    text-decoration: none; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 148px;
+    margin-right: 163px;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#surmoi{
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+   
+}
+
+#bitmoji{
+    border-radius: 100px;
+    width: 5%;
+    float: right;
+    margin-right: 870px;
+    margin-bottom: 200px;
+}
+
+
+form {
+    max-width: 500px;
+    padding: 200px;
+    padding-left: 700px;
+    background-color: yellow;
+    border-radius: 5px;
+    
+
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input{
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input::placeholder,textarea::placeholder{
+    color: white;
+   
+}
+
+#message{
+    background-color: green;
+    color: white;
+    height: 130px;   
+}
+
+.question{
+    padding-top: 20px;
+}
+
+.oui,.non{
+    margin: 0px;
+}
+
+
+
+footer{
+    background-color: green;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 812px;
+    padding-right: 812px;
+   
+    
+}
+
+.moi,.mail{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 0px;
+}
+
+.mail{
+    text-decoration: none;
+    color: black;
+}
+
+.mail:hover{
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
